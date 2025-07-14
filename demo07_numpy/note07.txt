@@ -1,0 +1,2 @@
+ndarray对象的内容可以通过索引或切片来访问和修改，与 Python 中 list 的切片操作一样。
+ndarray 数组可以基于 0 - n 的下标进行索引，切片对象可以通过内置的 slice 函数，并设置 start, stop 及 step 参数进行，从原数组中切割出一个新数组。

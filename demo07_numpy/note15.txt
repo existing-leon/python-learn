@@ -1,0 +1,12 @@
+NumPy 算术函数
+NumPy 算术函数包含简单的加减乘除: add()，subtract()，multiply() 和 divide()。
+需要注意的是数组必须具有相同的形状或符合数组广播规则。
+
+numpy.reciprocal()
+numpy.reciprocal() 函数返回参数逐元素的倒数。如 1/4 倒数为 4/1。
+
+numpy.power()
+numpy.power() 函数将第一个输入数组中的元素作为底数，计算它与第二个输入数组中相应元素的幂。
+
+numpy.mod()
+numpy.mod() 计算输入数组中相应元素的相除后的余数。 函数 numpy.remainder() 也产生相同的结果。
