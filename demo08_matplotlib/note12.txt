@@ -1,0 +1,10 @@
+Matplotlib imsave() 方法
+imsave() 方法是 Matplotlib 库中用于将图像数据保存到磁盘上的函数。
+通过 imsave() 方法我们可以轻松将生成的图像保存到我们指定的目录中。
+imsave() 方法保存图片支持多种图像格式，例如 PNG、JPEG、BMP 等。
+imsave() 方法的语法如下：
+    * matplotlib.pyplot.imsave(fname, arr, **kwargs)
+    参数说明：
+        fname：保存图像的文件名，可以是相对路径或绝对路径。
+        arr：表示图像的NumPy数组。
+        kwargs：可选参数，用于指定保存的图像格式以及图像质量等参数。
