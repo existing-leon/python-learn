@@ -36,3 +36,12 @@ def climbStairs2(n):
     for _ in range(1, n):
         pre, cur = cur, pre + cur
     return cur
+
+
+if __name__ == '__main__':
+    n = 4
+    for i in range(1, n):
+        print(i)
+
+    print('climbStairs1(n) =', climbStairs1(n))
+    print('climbStairs2(n) =', climbStairs2(n))
