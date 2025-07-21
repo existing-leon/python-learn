@@ -29,3 +29,8 @@ def max_subarray(nums):
         if result < f:
             result = f
     return result
+
+
+if __name__ == '__main__':
+    nums = [-2, 1, -3, 4, -1, 2, 1]
+    print(max_subarray(nums))
