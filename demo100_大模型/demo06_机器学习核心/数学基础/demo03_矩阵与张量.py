@@ -45,4 +45,6 @@ print(C_inv)
 print(C @ C_inv)
 print()
 # 非方阵可以求伪逆
-print(np.linalg.pinv(A))
+A_inv = np.linalg.pinv(A)
+print(A @ A_inv)
+print()
