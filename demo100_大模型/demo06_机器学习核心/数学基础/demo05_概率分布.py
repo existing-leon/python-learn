@@ -1,0 +1,25 @@
+import numpy as np
+
+a = np.random.rand()
+print(a)
+print()
+a = np.random.rand(5)
+print(a)
+print()
+
+b = np.random.randint(0, 100, 10)
+print(b)
+print()
+b = np.random.randint(0, 100, size=[2, 3])
+print(b)
+print()
+
+c = np.random.randn()
+print(c)
+print()
+c = np.random.randn(10)
+print(c)
+print()
+print(c + 5)
+print()
+print((c + 5) * 10)
